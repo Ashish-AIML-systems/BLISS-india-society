@@ -173,7 +173,7 @@ export const tiersConfig: TiersConfig = {
       price: "",
       frequency: "",
       journeys: "Core Program",
-      image: "/@fs/C:/Users/bios/Desktop/app/images/Slum%20Ministry/Screenshot%202026-04-27%20154951.png",
+      image: "/images/Slum%20Ministry/Screenshot%202026-04-27%20154951.png",
       description: "Providing educational assistance and support to children from underprivileged backgrounds, ensuring access to books, supplies, and learning environments.",
       amenities: [
         "School supplies and books for children",
@@ -190,7 +190,7 @@ export const tiersConfig: TiersConfig = {
       price: "",
       frequency: "",
       journeys: "Empowerment",
-      image: "/@fs/C:/Users/bios/Desktop/app/images/Adult%20Literacy%20Program/Screenshot%202026-04-27%20155308.png",
+      image: "/images/Adult%20Literacy%20Program/Screenshot%202026-04-27%20155308.png",
       description: "Educating illiterate adults to help them become self-reliant and aware, enabling them to navigate daily life with confidence and independence.",
       amenities: [
         "Basic reading and writing classes",
@@ -207,7 +207,7 @@ export const tiersConfig: TiersConfig = {
       price: "",
       frequency: "",
       journeys: "Livelihood",
-      image: "/@fs/C:/Users/bios/Desktop/app/images/Tailoring%20Training/Screenshot%202026-04-27%20155109.png",
+      image: "/images/Tailoring%20Training/Screenshot%202026-04-27%20155109.png",
       description: "Tailoring training and vocational programs that empower individuals economically, enabling them to build sustainable livelihoods for their families.",
       amenities: [
         "Tailoring and garment-making training",
@@ -224,7 +224,7 @@ export const tiersConfig: TiersConfig = {
       price: "",
       frequency: "",
       journeys: "Leadership",
-      image: "/@fs/C:/Users/bios/Desktop/app/images/Leaders%20Training/Screenshot%202026-04-27%20154857.png",
+      image: "/images/Leaders%20Training/Screenshot%202026-04-27%20154857.png",
       description: "Leadership training and de-addiction programs that channel young energy toward positive community contribution and personal growth.",
       amenities: [
         "Leadership and personality development",
@@ -241,7 +241,7 @@ export const tiersConfig: TiersConfig = {
       price: "",
       frequency: "",
       journeys: "Social Change",
-      image: "/@fs/C:/Users/bios/Desktop/app/images/SIDDI%20Tribe/Screenshot%202026-04-27%20155158.png",
+      image: "/images/SIDDI%20Tribe/Screenshot%202026-04-27%20155158.png",
       description: "Organizing seminars to address critical social issues such as dowry, female infanticide, and gender equality in rural and slum communities.",
       amenities: [
         "Awareness seminars on social issues",
@@ -258,7 +258,7 @@ export const tiersConfig: TiersConfig = {
       price: "",
       frequency: "",
       journeys: "Dignity",
-      image: "/@fs/C:/Users/bios/Desktop/app/images/Grace%20Old%20Age%20Home/Screenshot%202026-04-27%20154626.png",
+      image: "/images/Grace%20Old%20Age%20Home/Screenshot%202026-04-27%20154626.png",
       description: "Running old age homes to provide shelter, care, and dignity to elderly individuals, especially poor and abandoned mothers who deserve peace in their golden years.",
       amenities: [
         "Safe shelter and nutritious meals",
