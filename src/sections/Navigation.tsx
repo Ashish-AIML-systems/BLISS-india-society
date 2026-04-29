@@ -55,27 +55,15 @@ export default function Navigation() {
   return (
     <nav
       ref={navRef}
+      className="fixed top-0 left-0 w-full z-[100]"
       style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        width: '100%',
-        zIndex: 100,
-        padding: scrolled ? '16px 0' : '24px 0',
+        paddingTop: scrolled ? '16px' : '24px',
         transition: 'padding 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
       }}
     >
       <div
-        className="liquid-glass"
-        style={{
-          maxWidth: '1200px',
-          margin: '0 auto',
-          padding: '14px 40px',
-          borderRadius: '2px',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-        }}
+        className="liquid-glass w-[calc(100%-2rem)] md:w-[calc(100%-4rem)] max-w-[1200px] mx-auto px-4 md:px-10 py-4 md:py-4 flex flex-col md:flex-row items-center justify-between gap-4 md:gap-0"
+        style={{ borderRadius: '2px' }}
       >
         {navigationConfig.brandName ? (
           <a
@@ -90,6 +78,7 @@ export default function Navigation() {
               textDecoration: 'none',
               textTransform: 'uppercase',
               transition: 'color 0.6s ease',
+              textAlign: 'center',
             }}
           >
             {navigationConfig.brandName}
@@ -98,7 +87,7 @@ export default function Navigation() {
           <div />
         )}
 
-        <div style={{ display: 'flex', gap: '36px', alignItems: 'center' }}>
+        <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 md:gap-9 items-center">
           {navigationConfig.links.map((item) => (
             <a
               key={`${item.label}-${item.target}`}
